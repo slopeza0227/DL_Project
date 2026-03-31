@@ -13,6 +13,7 @@ import seaborn as sns
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 from sklearn.cluster import KMeans
+from scipy.cluster.hierarchy import dendrogram
 from sklearn.metrics import silhouette_score, silhouette_samples
 
 # Función para graficar atributos en barras, pair plot o box-plot
